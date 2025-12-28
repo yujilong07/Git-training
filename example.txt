@@ -1,0 +1,1 @@
+its just a file to understand what is a untracked and staged area before commit 
