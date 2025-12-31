@@ -1,2 +1,8 @@
 so here i want to write that branching is very usefull item for projects, and to switch branch you need to just write
 git switch and you`re done:) 
+
+
+
+UPDATE: so now ill do a merge ( when my example branch will connect to master branch) after what all changes from example branch will be transfered in master branch ( its used to add new features in your project without changes in master branch, so you will feel safe)
+
+
