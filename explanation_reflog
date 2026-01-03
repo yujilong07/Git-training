@@ -1,0 +1,24 @@
+meilong@Host-005:~/Документи/git train$ git cat-file -p cb3ab81 tree 8c54e2c8e03e2357722aaf6edf5d71dd050a99dd
+parent c31e15db4bce7ced4865cc34fff1707a062ace4b
+author yujilong <yujilong07@gmail.com> 1767447304 +0100
+committed  yujilong <yujilong07@gmail.com> 1767447304 +0100
+
+7: now the reflog magic
+meilong@Host-005:~/Документи/git train$ git cat-file -p 8c54e2c8e03e2357722aaf6edf5d71dd050a99dd
+100644 blob 9570fb1b096658aed7307f6b113bcf9d2dc7f612	.titles.md.swp
+100644 blob 4374053c6ecb9983b06a03ea8ae17c19f36ac03f	example.txt
+100644 blob 3cafc1186a62d218de9e7b138f60b55cc8595c2d	explanation.md
+100644 blob 228993b55ded50639a23b5d670e2156c5226f1a9	forsecbranch.csv
+160000 commit e724912470fa9ed16f241052f8a828cb5737fa0d	remote_example
+100644 blob 5a5dcc1609a3ccb0d026a021580e48d5d3260db7	titles.md
+
+meilong@Host-005:~/Документи/git train$ git cat-file -p 3cafc1186a62d218de9e7b138f60b55cc8595c2d
+
+
+SO in this case we will look how ref log works ( PS: its amazing, i lost my 4 and 5th commits and it showed me exact things that i made. so, lest get back to it)
+
+now my mission will be to commit this file and "accidentally" delete this branch and as i understood, restore it by using git reflog history.
+
+UPDATE!
+
+above i made a history of commits and hove i found our file that we seeked after deleting. and its magic, ofc the way i restored the tile is awful, but its just an example, so im proud🏋
